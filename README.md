@@ -7,3 +7,13 @@ The main.tf file has commented started code for the terraform block, provider bl
 The variables.tf and outputs.tf have an example for "name".
 
 The .gitignore file has common files and directories to ignore for Terraform projects.
+
+## Usage
+
+To create a new module repository locally, clone this repository to the desired name:
+
+```bash
+git clone git@github.com:dustindortch/terraform-module-template.git "<NEW_REPOSITORY_NAME>"
+```
+
+Terraform module repositories should always be named in the format `terraform-<provider>-<name>`.
