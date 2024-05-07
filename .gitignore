@@ -39,3 +39,10 @@ terraform.rc
 *.key
 *.pem
 *.pub
+
+# Binary data
+*.exe
+*.rar
+*.tar.*
+*.tgz
+*.zip
